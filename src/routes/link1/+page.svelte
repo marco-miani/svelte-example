@@ -1,6 +1,3 @@
-<script>import Footer from "$lib/Footer.svelte";</script>
-
-
 <section class="text-gray-400 body-font bg-gray-900">
     <div class="container px-5 py-24 mx-auto">
       <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center">
@@ -81,7 +78,4 @@
       <button class="flex mx-auto mt-16 text-white bg-blue-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg">Button</button>
     </div>
   </section>
-
-<Footer />
-
 <slot />

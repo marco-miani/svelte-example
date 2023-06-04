@@ -1,6 +1,3 @@
-<script>import Footer from "$lib/Footer.svelte";</script>
-
-
 <section class="text-gray-400 bg-gray-900 body-font relative">
     <div class="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
       <div class="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
@@ -12,7 +9,7 @@
           </div>
           <div class="lg:w-1/2 px-6 mt-4 lg:mt-0">
             <h2 class="title-font font-semibold text-white tracking-widest text-xs">EMAIL</h2>
-            <a class="text-blue-400 leading-relaxed">example@email.com</a>
+            <a href="mailto:123@marco.com" class="text-blue-400 leading-relaxed">example@email.com</a>
             <h2 class="title-font font-semibold text-white tracking-widest text-xs mt-4">PHONE</h2>
             <p class="leading-relaxed">123-456-7890</p>
           </div>
@@ -38,8 +35,5 @@
       </div>
     </div>
   </section>
-
-
-<Footer />
 
 <slot />

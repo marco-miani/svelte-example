@@ -1,6 +1,3 @@
-<script>import Footer from "$lib/Footer.svelte";</script>
-
-
 <section class="text-gray-400 bg-gray-900 body-font">
     <div class="container px-5 py-24 mx-auto flex flex-wrap">
       <div class="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden">
@@ -61,7 +58,5 @@
       </div>
     </div>
   </section>
-
-  <Footer />
 
 <slot />
